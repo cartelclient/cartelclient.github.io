@@ -1,24 +1,37 @@
 <head>
     <script src="js/rythm.js"></script>
+    <script src="js/volume.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
     <link rel="stylesheet" href="css/landing.css">
     <meta name="theme-color" content="#e26b6b">
-    <title>cartel | Premium Ghost Client</title>
+    <title>cartel</title>
     </head>
     <body>
-        <audio id="bgm" src="content/bgm.mp3" loop></audio>
+    <audio id="bgm" src="content/bgm.mp3" loop></audio>
     <div id="particles-js"></div>
     <div class="main center">
         <div style="font-size: 40px; transform: scale(1.100) translateZ(0px); filter: blur(0px);" class="logo-bass logo-blur"><span class="logo-neon" style="text-shadow: rgb(226, 107, 107) 0px 0px 40px;">cartel</span></div>
     </div>
 
     <div class="controls">
-        <a href="https://discord.gg/FgrWw8tEDk">discord</a> /
-        <a href="https://auth.gg/portal/cartel">login</a> /
-        <a href="/main.html">main</a>
+        <a href="login.html">login</a> /
+        <a href="register.html">register</a> /
+        <a href="purchase.html">purchase</a> /
+        <a href="https://discord.gg/FgrWw8tEDk">discord</a>
     </div>
+
+    <footer class="footer">
+		<div class="container">
+			
+			<div class="footer row align-items-center">
+
+				<p class="footer text" style="left: 35%; right: 50%; bottom: 43px;">
+					fucksociety <script>document.write(new Date().getFullYear());</script> | All rights reserved
+				</p>
+			</div>
+	</footer>
 
     <div class="overlay">
         <div class="center">
@@ -27,6 +40,7 @@
 </div>
 
 <script>
+
     var rythm;
     var initialized = false;
 
